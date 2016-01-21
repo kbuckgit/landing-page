@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title></title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link href="http://na-sj09.marketo.com/rs/175-YWH-478/images/style.css" rel="stylesheet" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="1100" />
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<link rel="shortcut icon" type="image/x-icon" href="#" />
+
+<!-- Marketo -->
+<meta class="mktoBoolean" id="showHeader" mktoName="Show Page Header?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="showSubHeader" mktoName="Show Page Subhead?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="showSection1" mktoName="Show Section 1?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="show1Headline" mktoName="Show Section 1 Headline?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="show1Subhead" mktoName="Show Section 1 SubHeadline?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="show1Video" mktoName="Show Section 1 Video?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="show1Text" mktoName="Show Section 1 Content?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="show2Text" mktoName="Show Section 2 Content?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="show1FormHead" mktoName="Show Form Headline?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="showFullWidth" mktoName="Show Full Width Section?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="showFullHeader" mktoName="Show Full Width Header?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="showFullText" mktoName="Show Full Width Content?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="show2Col" mktoName="Show 2 Column Section?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="show2ColHeader" mktoName="Show 2 Column Header?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="showResources" mktoName="Show Resources Section?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="showResourcesHeader" mktoName="Show Resources Header?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoBoolean" id="showResources3Col" mktoName="Show 3 Column?" default="true" true_value="block" false_value="none" false_value_name="Hide" true_value_name="Show">
+<meta class="mktoString" id="mainPageHeadline" mktoName="Page Header Text" default="[main page headline]" allowHtml="true">
+<meta class="mktoString" id="section1HeaderText" mktoName="Section 1 Text" default="[main content headline]" allowHtml="true">
+<meta class="mktoString" id="fullHeaderText" mktoName="Full Header Text" default="[full width headline]" allowHtml="true">
+<meta class="mktoString" id="2ColHeaderText" mktoName="2 Column Header Text" default="[2 column headline]" allowHtml="true">
+<meta class="mktoString" id="featuredResourceHeaderText" mktoName="Featured Resource Header Text" default="[featured resource headline]" allowHtml="true">
+<meta class="mktoString" id="featuredResourceTitle" mktoName="Featured Resource Content Header Text" default="[featured resource content headline]" allowHtml="true">
+<meta class="mktoString" id="Resource3Col1Headline" mktoName="Column #1 Headline" default="[#1 title]" allowHtml="true">
+<meta class="mktoString" id="Resource3Col2Headline" mktoName="Column #2 Headline" default="[#2 title]" allowHtml="true">
+<meta class="mktoString" id="Resource3Col3Headline" mktoName="Column #3 Headline" default="[#3 title]" allowHtml="true">
+
+<!--[if gte IE 9]>
+
+      <style type="text/css">
+
+          .gradient, .normalBtn, .greyBtn {
+
+              filter: none;
+
+          }
+
+      </style>
+
+    <![endif]-->
+
+<style>
+.pageHeadPad {
+	padding-top: 50px;
+	height: 160px !important;
+	color: #000;
+}
+.twoC {
+	padding-top: 40px !important;
+}
+.halfC .rightCol {
+	width: 45%;
+	padding-left:20px;
+}
+.halfC .leftCol {
+	width: 45%;
+	padding-right:20px;
+}
+.quarter {
+	width: 33% !important;
+}
+.headerMenu {
+	margin-top: 58px;
+}
+.subContentTitle {
+	color: #fff !important;
+}
+.mktoButtonRow {
+	margin-bottom: -10px !important;
+	margin-top: 30px !important;
+}
+div#section1FormHead h4 {
+	color: #ffffff !important;
+	font-size: 30px !important;
+	font-weight: 600 !important;
+	font-family: "Titillium Web", sans-serif !important;
+	margin-bottom:0px !important;
+}
+@media only screen and (max-width: 768px) {
+.header {
+	padding-top:20px;
+}
+.headerMenu {
+	margin-top: 20px;
+}
+.pageHeadPad {
+	height: auto !important;
+}
+.quarter {
+	width: 100% !important;
+}
+.halfC .leftCol {
+	width: 100% !important;
+	padding-right: 0px;
+	display:block;
+}
+.halfC .rightCol {
+	width: 100% !important;
+	padding-right: 0px;
+	display:block;
+}
+.beforeFooter {
+	display: block;
+}
+span.logo a {
+	padding-bottom: 15px !important;
+}
+  hr.houdini {
+    display:none !important;
+  }
+  div.houdiniSpacer {
+    display:block !important;
+    float:left !important;
+    height:25px !important;
+  }  
+}
+</style>
+  <style>
+    /* LMD Mobile Styling */
+@media all and (min-width: 100px) and (max-width: 800px) {
+	.footerCol, .footerLastCol {display:none !important;}
+  	div.customMktoForm {width:100% !important;}
+	.footerCopyrights {
+    text-align: center !important;
+}
+}
+@media all and (min-width: 1020px) and (max-width: 1200px) {
+	div.rightColMktoCustom {width:60% !important;}
+	.footerCopyrights {
+    text-align: center !important;
+}
+}
+</style>
+  </head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<div class="header">
+  <div class="safeArea posRelative"> <span class="logo"> <a href='#' title=''> <img src="http://placehold.it/175x70" width="175" height="70" alt="" /> </a> </span>
+    <div class="clearBoth"></div>
+  </div>
+</div>
+<div id="divBreadcrumb" class="breadCrumbs">
+  <div class="safeArea" vocab="http://schema.org/" typeof="BreadcrumbList"></div>
+</div>
+<div class="pageHead">
+  <div class="safeArea posRelative highZPosRel">
+    <div class="pageHeadPad">
+      <div class="pageHeadMain">
+        <div id="pageHeader" mktoName="Page Header" style="display: ${showHeader};">
+          <h1 class="pageTitle">${mainPageHeadline}</h1>
+        </div>
+        <div class="italicBig">
+          <div class="mktoText" id="pageSubHeader" mktoName="Page SubHeader" style="display: ${showSubHeader};">
+            <p>[Page SubHeader]</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="cpMainContent_divPhContainer" class="safeArea contentMain printAreaHolder ">
+  <div class="twoC" style="display: ${showSection1};">
+    <div class="rightCol floatLeft rightColMktoCustom">
+      <div class=" blocSpan">
+        <div id="section1Headline" mktoName="Section 1 Headline" style="display: ${show1Headline};">
+          <h2 class="secLevTitle"> <span>${section1HeaderText}</span> </h2>
+        </div>
+      </div>
+      <div class=" blocSpan">
+        <div class="blockSpace">
+          <div class="margBot25 editor">
+            <div class="mktoText italicBig" id="section1Subhead" mktoName="Section 1 Subhead" style="display: ${show1Subhead};">
+              <p>[main content subhead]</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" blocSpan">
+        <div class="margBot25 editor">
+          <div class="mktoText" id="section1Text" mktoName="Section 1 Text 1" style="display: ${show1Text};">
+            <p>[content here]</p>
+          </div>
+          <div class="mktoVideo" id="section1Video" mktoName="Section 1 Video" style="display: ${show1Video};margin:20px 0;"></div>
+          <div class="mktoText" id="section2Text" mktoName="Section 1 Text 2" style="display: ${show2Text};">
+            <p>[content here]</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="quarter floatRight customMktoForm">
+      <div class=" blocSpan">
+        <div id="cpMainContent_cpMainContentFull_ctl02_ctl00_ctl01_ctl00_divHolder" class="gradientBanner gradient withTopSpace blockSpace ">
+          <div class="blocPadding">
+            <div class="">
+              <div>
+                <div class="gradientBigInner centered">
+                  <div>
+                    <div class="mktoText" id="section1FormHead" mktoName="Section 1 Headline" style="display: ${show1FormHead};">
+                      <h4>[Form Heading]</h4>
+                    </div>
+                  </div>
+                  <div class="mktoForm" id="section1Form" mktoName="Section 1 Form"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clearBoth"></div>
+  <div class="rowFluid" style="display: ${showFullWidth};">
+    <div class="span12 blocSpan">
+      <div class="blockSpace">
+        <div id="fullHeader" mktoName="Full Width Header" style="display: ${showFullHeader};margin-top:25px;">
+          <h2 class="secLevTitle">${fullHeaderText}</h2>
+        </div>
+        <div class="mktoText" id="fullText" mktoName="Full Width Text" style="display: ${showFullText};">
+          <p>[content here]</p>
+        </div>
+        <div class='clearBoth'></div>
+      </div>
+    </div>
+  </div>
+  <div class="clearBoth"></div>
+  <div class="rowFluid" style="display: ${show2Col};">
+    <div class="span12 blocSpan">
+      <div class="blockSpace">
+        <div id="2ColHeader" mktoName="2 Column Header" style="display: ${show2ColHeader};margin-top:25px;">
+          <h2 class="secLevTitle">${2ColHeaderText}</h2>
+        </div>
+        <div class="halfC">
+          <div class="leftCol floatLeft">
+            <div class="mktoText" id="2ColText1" mktoName="2 Column Text 1">
+              <p>[content here]</p>
+            </div>
+          </div>
+          <div class="houdiniSpacer" style="display:none;">&nbsp;</div>
+          <div class="rightCol floatRight">
+            <div class="mktoText" id="2ColText2" mktoName="2 Column Text 2">
+              <p>[content here]</p>
+            </div>
+          </div>
+          <div class="clearBoth"></div>
+        </div>
+        <div class='clearBoth'></div>
+      </div>
+    </div>
+    <div class="span12 blocSpan"> </div>
+  </div>
+  <div class="clearBoth"></div>
+</div>
+</div>
+<div class="greyBlock social">
+<div class="safeArea" style="display: ${showResources};">
+  <div class="beforeFooter" style="padding-top:5px !important;">
+    <div class="span12 blocSpan">
+      <div class="blockSpace res">
+        <div id="ResourcesHeader" mktoName="Resources Header" style="display: ${showResourcesHeader};">
+          <h2 class="secLevTitle contentSubtitle smallBotMargin"> ${featuredResourceHeaderText} </h2>
+        </div>
+        <div class="greyBlock margBot20" style="background-color: #dddddd;">
+          <div class="blocPadding">
+            <div class="highlightImage posRelative">
+              <div class="mktoImg" id="ResourcesImage" mktoName="Resources Image 225x225" mktoImgClass="expandToFit" style="min-height:20px;min-width:20px;"><img src="http://placehold.it/225x225.png" alt="End-to-end baggage process" title="End-to-end baggage process"></div>
+            </div>
+            <div>
+              <div class="blockOrangeTitle">${featuredResourceTitle}</div>
+              <div class="mktoText margBot15" id="ResourcesContent" mktoName="Resources Content">
+                <p>[featured blurb]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="span12 blocSpan">
+      <div class="threeNarrow ">
+        <div class="narrow" style="display: ${showResources3Col};">
+          <div>
+            <h3 class="blocTitle" style="color:#69B344"> ${Resource3Col1Headline}</h3>
+            <div class="margBot10 mktoText" id="Resource3Col1" mktoName="Resources 3Col #1">
+              <p>[#1 content]</p>
+            </div>
+            <div class="clearBoth"></div>
+          </div>
+        </div>
+        <div class="narrow ">
+          <div>
+            <h3 class="blocTitle" style="color:#69B344"> ${Resource3Col2Headline} </h3>
+            <div class="margBot10 mktoText" id="Resource3Col2" mktoName="Resources 3Col #2">
+              <p>[#2 content]</p>
+            </div>
+            <div class="clearBoth"></div>
+          </div>
+        </div>
+        <div class="narrow last">
+          <div>
+            <h3 class="blocTitle" style="color:#69B344"> ${Resource3Col3Headline}</h3>
+            <div class="margBot10 mktoText" id="Resource3Col3" mktoName="Resources 3Col #3">
+              <p>[#3 content]</p>
+            </div>
+            <div class="clearBoth"></div>
+          </div>
+        </div>
+      </div>
+      <div class="blockSpace">
+        <div class="safeArea rightAlign">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer" style="padding: 0 0 30px 0 !important;">
+  <div class="safeArea sameHeightPads">
+    <div class="clearBoth"></div>
+    <div class="footerCopyrights" style="border-top:0 !important;margin-top:0px !important;">
+    <div style="height:40px;"></div>
+    <div>
+      <div class="footerSmallLinks floatLeft"> <a href="#" title="Linke #1">Link #1</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#" title="Linke #2">Link #2</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#" title="Link #3">Link #3</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#" title="Link #4">Link #4</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#" title="Linke #5">Link #5</a> </div></div>
+      <div class="footerSmallLinks floatRight"> &copy;
+        
+        2015 Company Name</div>
+      <div class="clearBoth"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
